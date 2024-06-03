@@ -1,13 +1,13 @@
-import { useFruits } from '../hooks/useFruits.ts'
+import TEST_IMG from '../../public/assets/test-img.png'
+import ImageZoomInOut from './ImageZoomInOut'
 
 function App() {
-  const { data } = useFruits()
-
+  console.dir(TEST_IMG)
   return (
     <>
       <div className="app">
         <h1>Fullstack Boilerplate - with Fruits!</h1>
-        <ul>{data && data.map((fruit) => <li key={fruit}>{fruit}</li>)}</ul>
+        <ImageZoomInOut imageUrl={TEST_IMG} />
       </div>
     </>
   )
