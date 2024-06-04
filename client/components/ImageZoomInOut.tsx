@@ -55,9 +55,11 @@ function ImageZoomInOut({ imageUrl }) {
     image?.addEventListener('mouseup', handleMouseUp)
 
     //remove event listeners on component unmount
-    image?.removeEventListener('mousedown', handleMouseDown)
-    image?.removeEventListener('mousemove', handleMouseMove)
-    image?.removeEventListener('mouseup', handleMouseUp)
+    return () => {
+      image?.removeEventListener('mousedown', handleMouseDown)
+      image?.removeEventListener('mousemove', handleMouseMove)
+      image?.removeEventListener('mouseup', handleMouseUp)
+    }
   }, [imageRef, scale])
 
   return (

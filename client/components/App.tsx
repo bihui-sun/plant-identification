@@ -1,4 +1,4 @@
-import TEST_IMG from '../../public/assets/test-img.png'
+import TEST_IMG from '/assets/test-img.png'
 import ImageZoomInOut from './ImageZoomInOut'
 
 function App() {
