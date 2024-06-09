@@ -79,8 +79,8 @@ function ImageZoomInOut({ imageUrl }) {
         src={imageUrl}
         alt="img"
         style={{
-          width: '700px',
-          height: 'auto',
+          width: 'auto',
+          height: '300px',
           cursor: 'move',
           transform: `scale(${scale}) translate(${position.x}px, ${position.y}px)`,
         }}
