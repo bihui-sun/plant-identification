@@ -12,7 +12,7 @@ function PlantDetail() {
     <>
       <div className="app">
         <h1>
-          Kaikomako{' '}
+          Kaikōmako
           <span>
             <em>(Pennantia corymbosa)</em>
           </span>
@@ -42,7 +42,7 @@ function PlantDetail() {
           <p>White</p>
           <h3>Fruit:</h3>
           <p>
-            The fruit of Kaikomako is typically small, round, and berry-like,
+            The fruit of Kaikōmako is typically small, round, and berry-like,
             often green or purplish in color when ripe.
           </p>
           <h3>Identification Key:</h3>
@@ -53,7 +53,7 @@ function PlantDetail() {
           <h3>Phenology:</h3>
           <p>
             Kaikōmako has three stages; juvenile, intermediate and adult.
-            Kaikomako can fruit in its intermediate stage and even in its
+            Kaikōmako can fruit in its intermediate stage and even in its
             juvenile stage; this is known as precocious fruiting. Many of the
             Kaikōmako trees that are in their adult stage will still feature
             lower-level juvenile leaves whilst having upper-level adult leaves.
@@ -67,7 +67,7 @@ function PlantDetail() {
             Kaikōmako is dioecious, meaning it has female and male flowers. The
             female flower&apos;s anthers are shorter than the males, and the
             male flowers have a rudimentary ovary that doesn&apos;t have a
-            stigma
+            stigma.
           </p>
         </div>
       </div>

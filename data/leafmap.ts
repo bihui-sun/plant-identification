@@ -6,13 +6,13 @@ export default [
       {
         id: '2',
         key: 'no teeth along edges',
-        plant: [{ name: 'Puriri' }],
+        plant: [{ name: 'Pūriri' }],
       },
       {
         id: '3',
         key: 'with teeth along edges',
         children: [
-          { id: '4', key: '5 teeth', plant: [{ name: 'Patete' }] },
+          { id: '4', key: '5 teeth', plant: [{ name: 'Patē' }] },
           { id: '5', key: 'coarse teeth', plant: [{ name: 'Whauwhauku' }] },
         ],
       },
