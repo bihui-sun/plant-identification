@@ -1,6 +1,6 @@
 # Plant Identification🌳
 
-## About
+## About  ℹ️
 
 Plant Identifier is my personal project, designed to help identify plants step-by-step based on key features such as leaves, flowers, fruits, or locations like Great Walks. This approach allows me to learn the distinguishing features of plants within the same genus. The application provides detailed plant information on dedicated pages and includes images that can be zoomed in and out for close inspection of plant details.
 
@@ -18,7 +18,7 @@ Plant Identifier is my personal project, designed to help identify plants step-b
 * Add flower and fruit identification feature
 * Identification on Great Walks
 
-### Installation
+## Installation ⚙️
 
 #### **From the command line**
 
